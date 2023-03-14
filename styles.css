@@ -1,0 +1,100 @@
+body{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-color: #fdffd1;
+}
+
+p, figcaption{
+    font-family: "kallisto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color:#896da0;   
+}
+
+p{
+    line-height: 1.5em;
+}
+
+h2, h3{
+    color:#2e2a49;
+    font-family: "kallisto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+h2{
+    text-align: center;
+}
+
+a{
+    color:#896da0;
+    font-family: "kallisto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.showing {
+    visibility:visible;
+    opacity: 1;
+}
+
+.overlay{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    transition-property: opacity, visibility;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.overlay article{
+    box-sizing: border-box;
+    background-color:rgb(249, 234, 250);
+    border-radius:20px;
+    padding: 20px;
+    width: 50vw;
+    height:80vh;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    overflow-y:scroll;
+}
+
+.corner{
+    font-size:36px;
+    margin:0;
+    padding:0;
+    border:none;
+    background-color: transparent;
+    color:#896da0;
+    position:absolute;
+    top:10px;
+    right:10px;
+    cursor:pointer;
+    outline:none;
+}
+
+img{
+    padding:10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+figcaption{
+    text-align: center;
+}
