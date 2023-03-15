@@ -1,9 +1,10 @@
 body{
     background-image: url(images/bg.jpg);
-    background-repeat: no-repeat;
     background-size: contain;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: #fdffd1;
+
 }
 
 p, figcaption{
@@ -94,6 +95,7 @@ img{
     margin-right: auto;
     border-radius: 20px;
 }
+
 
 figcaption{
     text-align: center;
